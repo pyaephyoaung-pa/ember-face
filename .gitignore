@@ -1,0 +1,16 @@
+# Signing keys - NEVER commit these
+key.pem
+*.der
+
+# Build output
+*.prg
+*.prg.debug.xml
+*.iq
+bin/
+gen/
+internal-mir/
+external-mir/
+
+# OS / editor
+.DS_Store
+.vscode/
